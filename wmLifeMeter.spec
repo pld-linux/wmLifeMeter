@@ -35,7 +35,8 @@ Znakomity prezent dla tych którzy niedawno obchodzili 30. urodziny.
 %build
 cd src
 %{__make} \
-	CFLAGS="%{rpmcflags}"
+	CFLAGS="%{rpmcflags}" \
+	CC="%{__cc}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
