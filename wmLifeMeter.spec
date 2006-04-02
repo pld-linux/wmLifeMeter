@@ -31,10 +31,11 @@ niezauwa¿onym.
 Znakomity prezent dla tych którzy niedawno obchodzili 30. urodziny.
 
 %prep
-%setup -q -n "%{name}"
+%setup -q -n %{name}
 
 %build
 cd src
+%{__make} clean
 %{__make} \
 	CFLAGS="%{rpmcflags}" \
 	CC="%{__cc}"
