@@ -3,7 +3,7 @@ Summary(pl):	Monitor zu¿ytego czasu ¿ycia dla WindowMakera
 Name:		wmLifeMeter
 Version:	0_4
 Release:	2
-License:	GPL v2
+License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://www.samskivert.com/shaper/wmLifeMeter/%{name}-%{version}.tar.gz
 # Source0-md5:	6b9efc5fc73afc584f9e23cd7a21cc53
