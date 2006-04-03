@@ -3,9 +3,9 @@ Summary(pl):	Monitor zu¿ytego czasu ¿ycia dla WindowMakera
 Name:		wmLifeMeter
 Version:	0_4
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Window Managers/Tools
-Source0:	http://www.samskivert.com/shaper/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://www.samskivert.com/shaper/wmLifeMeter/%{name}-%{version}.tar.gz
 # Source0-md5:	6b9efc5fc73afc584f9e23cd7a21cc53
 URL:		http://www.samskivert.com/shaper/wmLifeMeter/
 BuildRequires:	XFree86-devel
@@ -30,10 +30,11 @@ niezauwa¿onym.
 Znakomity prezent dla tych którzy niedawno obchodzili 30. urodziny.
 
 %prep
-%setup -q -n "%{name}"
+%setup -q -n %{name}
 
 %build
 cd src
+%{__make} clean
 %{__make} \
 	CFLAGS="%{rpmcflags}" \
 	CC="%{__cc}"
