@@ -1,5 +1,5 @@
 Summary:	WindowMaker life progress meter
-Summary(pl.UTF-8):   Monitor zużytego czasu życia dla WindowMakera
+Summary(pl.UTF-8):	Monitor zużytego czasu życia dla WindowMakera
 Name:		wmLifeMeter
 Version:	0_4
 Release:	2
