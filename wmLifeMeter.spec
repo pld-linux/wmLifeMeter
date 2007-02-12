@@ -1,5 +1,5 @@
 Summary:	WindowMaker life progress meter
-Summary(pl):	Monitor zu¿ytego czasu ¿ycia dla WindowMakera
+Summary(pl.UTF-8):   Monitor zuÅ¼ytego czasu Å¼ycia dla WindowMakera
 Name:		wmLifeMeter
 Version:	0_4
 Release:	2
@@ -21,14 +21,14 @@ again let those precious seconds slip by un-noticed.
 A great gift for those who have recently celebrated their 30th
 birthday.
 
-%description -l pl
-Prosta aplikacja która wy¶wietla czas ¿ycia który up³yn±³ danej osobie
-jako uaktualniany na bie¿±co do siódmej cyfry po przecinku licznik
-procentowy, tak ¿e widaæ jak kolejne cyfry zmieniaj± siê w miarê
-patrzenia. Nigdy wiêcej nie pozwól tym cennym sekundom up³yn±æ
-niezauwa¿onym.
+%description -l pl.UTF-8
+Prosta aplikacja ktÃ³ra wyÅ›wietla czas Å¼ycia ktÃ³ry upÅ‚ynÄ…Å‚ danej osobie
+jako uaktualniany na bieÅ¼Ä…co do siÃ³dmej cyfry po przecinku licznik
+procentowy, tak Å¼e widaÄ‡ jak kolejne cyfry zmieniajÄ… siÄ™ w miarÄ™
+patrzenia. Nigdy wiÄ™cej nie pozwÃ³l tym cennym sekundom upÅ‚ynÄ…Ä‡
+niezauwaÅ¼onym.
 
-Znakomity prezent dla tych którzy niedawno obchodzili 30. urodziny.
+Znakomity prezent dla tych ktÃ³rzy niedawno obchodzili 30. urodziny.
 
 %prep
 %setup -q -n %{name}
