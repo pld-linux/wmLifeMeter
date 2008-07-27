@@ -2,7 +2,7 @@ Summary:	WindowMaker life progress meter
 Summary(pl.UTF-8):	Monitor zużytego czasu życia dla WindowMakera
 Name:		wmLifeMeter
 Version:	0_4
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://www.samskivert.com/shaper/wmLifeMeter/%{name}-%{version}.tar.gz
